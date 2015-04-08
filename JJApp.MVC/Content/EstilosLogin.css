@@ -1,0 +1,154 @@
+﻿#loginForm {
+    font-family:"Trebuchet MS","Segoe UI", Calibri, Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 370px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -200px;
+    border:1px solid #c9c9c9;
+}
+
+
+#loginForm div {
+    height:75px;
+}
+
+
+#loginForm #userLogin {
+    background:#efefef;
+    border-right:3px solid #ff6a00;    
+}
+
+#loginForm #divMensaje {    
+    height:60px;    
+    padding:10px;
+    color:red;    
+}
+
+#loginForm .field-validation-error{
+    color:red;    
+    font-size:1.5em;
+}
+
+#loginForm #divEjercicio
+{
+    padding-left:10px;
+    height:40px;
+}
+
+#loginForm #divRecordar{
+    float:left;
+    width:200px;
+    font-size:.8em; 
+}
+
+#loginForm #divRecordar input[type=checkbox]{
+    float:left;
+    width:20px;    
+}
+
+#loginForm #divRecordar span{
+    height:50px;    
+    line-height:2.5em;
+    color:#65ca60;
+}
+
+
+#loginForm #divAceptar{
+    float:left;
+    width:200px;
+    font-size:.8em; 
+}
+
+#loginForm input {
+    width:250px;                
+    padding:7px;
+    margin:10px;
+    line-height:1.5em;
+}
+
+#loginForm h2 {
+    padding:14px;
+    font-weight:normal;
+    font-size:1.5em;
+    color:#65ca60;
+    text-align:center;
+}
+
+#loginForm input[type=text],#loginForm input[type=password] {
+    color:#a0a0a0;        
+    background-color:white;
+    text-align:left;
+    padding: 15px 15px 15px 30px;
+    border:1px solid #c9c9c9;
+}
+
+#userLogin input {
+    background: url(../Images/login-sprite.png) no-repeat;  
+    background-position:5px -2px;             
+}
+
+
+#userPassword input{
+    background: url(../Images/login-sprite.png) no-repeat;  
+    background-position:5px -52px;        
+}
+
+
+#loginForm input[type=submit] {
+    background:#65ca60;
+    float:right;
+    margin-right:20px;
+    border:1px solid #48a844;
+    color:white;
+    width:150px;
+}
+
+#loginForm .checkbox{
+    color:#a0a0a0; 
+    padding-top:5px;    
+}
+
+.aviso{
+    text-align:center;
+}
+
+#mensajeNavegador{
+    display:none;
+    width:100%;
+    background-color:red;
+    color:white;
+    font-size:1.5em;    
+    height:300px;
+}
+
+/*ESTILOS VIDEO*/
+.flex-video {
+position: relative;
+padding-top: 25px;
+padding-bottom: 67.5%;
+height: 0;
+margin-bottom: 16px;
+overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+.flex-video { padding-top: 0; }
+}
+
+/*ESTILOS VIDEO*/
+
+

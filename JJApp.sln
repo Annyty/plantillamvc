@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JJApp.MVC", "JJApp.MVC\JJApp.MVC.csproj", "{B9FFEB04-B299-4AFC-859A-E4E3E125D0B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JJApp.Data", "JJApp.Data\JJApp.Data.csproj", "{2FC36211-D23E-48D4-A576-B4298B642746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JJApp.Models", "JJApp.Models\JJApp.Models.csproj", "{A0657C6B-2EEF-4751-9A74-7772AB38914B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FFEB04-B299-4AFC-859A-E4E3E125D0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FFEB04-B299-4AFC-859A-E4E3E125D0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FFEB04-B299-4AFC-859A-E4E3E125D0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FFEB04-B299-4AFC-859A-E4E3E125D0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC36211-D23E-48D4-A576-B4298B642746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC36211-D23E-48D4-A576-B4298B642746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC36211-D23E-48D4-A576-B4298B642746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC36211-D23E-48D4-A576-B4298B642746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0657C6B-2EEF-4751-9A74-7772AB38914B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0657C6B-2EEF-4751-9A74-7772AB38914B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0657C6B-2EEF-4751-9A74-7772AB38914B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0657C6B-2EEF-4751-9A74-7772AB38914B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

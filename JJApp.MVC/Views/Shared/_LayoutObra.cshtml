@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - SIMVER</title>
+    <link rel="shortcut icon" href="http://www.orfis.gob.mx/favicon.ico">
+    <link rel="shortcut icon" href="http://www.orfis.gob.mx/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("estilos", required: false)
+</head>
+<body>
+    <header class="container-full">
+        <div id="menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <div class="titulo">
+                    <div class="columnaheader">
+                        <div class="logo">
+                            <h1>ORFIS</h1>
+                            <div class="slogan">Por una Fiscalizaci&oacute;n Superior, Confiable, Oportuna y Eficaz.</div>
+                        </div>
+                    </div>
+                    <div class="infoLogin">
+                        <div>
+                            <span class="spanLogin">
+                                @Html.Partial("_LoginPartial")
+                            </span>
+                            <div class="slogan">
+                                @*<a href="http://www.orfis.gob.mx/asesoria/asesoria.php" target="_blank"><img alt=""  src=""/></a>*@
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="body" class="container-full">
+        @RenderBody()
+    </section>
+    <div id="idletimeout">
+        El sistema cerrará la sesión en
+        <span><!-- countdown place holder --></span>
+        &nbsp;segundos debido a inactividad con el servidor.
+        <a id="idletimeout-resume" href="#">
+            Haz clic aquí para continuar usando la página <!-- hereto continue using this web page-->
+        </a>.
+    </div>
+    <div id="ajaxCargador">
+        <img src="~/Images/cargando.gif" alt="" />
+    </div>
+    <!-- remaining code elided -->
+    @RenderSection("breakout", required: false)
+    @Scripts.Render("~/bundles/siteObra")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

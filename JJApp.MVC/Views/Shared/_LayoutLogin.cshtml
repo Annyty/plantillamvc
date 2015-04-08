@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - SIMVER</title>
+    <link rel="shortcut icon" href="http://www.orfis.gob.mx/favicon.ico">
+    <link rel="shortcut icon" href="http://www.orfis.gob.mx/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/estilosLogin")    
+    @RenderSection("estilos", required: false)    
+</head>
+<body>                        
+    @RenderBody()    
+    @Scripts.Render("~/bundles/site")
+    @RenderSection("scripts", required: false)    
+    <script src="~/Scripts/app/ierestriction.js"></script>
+</body>
+</html>

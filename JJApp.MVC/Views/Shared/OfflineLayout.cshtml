@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Modo sin conexión";
+}
+
+<!DOCTYPE html>
+<html lang="en" manifest="/funcionariosmunicipales/manifest">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title :: SIM</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        @RenderSection("styles", required: false)
+    </head>
+    <body class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="/">
+                        <img alt="Orfis" title="Orfis" src="~/img/orfis.jpg" />
+                    </a>
+                </div>
+            </div>
+        </header>
+        <article>
+            @RenderBody()
+        </article>
+        <footer>
+            <small>&copy; @DateTime.Now.Year SIM</small>
+        </footer>
+        @RenderSection("breakout", required: false)
+        @Scripts.Render("~/bundles/site")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
+
